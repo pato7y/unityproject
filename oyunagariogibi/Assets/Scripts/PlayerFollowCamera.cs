@@ -11,11 +11,11 @@ public class PlayerFollowCamera : MonoBehaviour
     public Transform Player; // Reference to the player
     public Vector3 Offset;
     private Vector3 change;
-    public float Speed = 0.4f;
-    public float MaxZoom = 4f;
-    public float MinZoom = 1.5f;
-    public float ZoomController = 1.8f;
-    public float ZoomSpeed = 0.6f;
+    public float Speed = 1f;
+    public float MaxZoom = 6f;
+    public float MinZoom = 2f;
+    public float ZoomController = 2f;
+    public float ZoomSpeed = 1f;
 
     private Camera cam;
 
