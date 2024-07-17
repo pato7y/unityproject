@@ -22,3 +22,5 @@ public class BotEat : MonoBehaviour
         }
     }
 }
+
+//this code is to test if the project works or the pushes for github via git is succesfful
